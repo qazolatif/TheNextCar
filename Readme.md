@@ -8,7 +8,7 @@ Aplikasi ini digunakan untuk mobil yang memiliki teknologi masa depan yang berfu
 * User dapat mengetahui apakah mesin dapat dihidupkan dengan syarat-syarat tertentu yaitu pintu harus ditutup, pintu harus dikunci dan power harus hidup.
 ## How does it works?
 1. Class diagram dari projek ini
-![Class Diagram](assets/classDiagram)
+![Class Diagram](assets/classDiagram.png)
 2. Kegunaan `DoorController.cs` adalah menampung fungsi mengontrol pintu mobil seperti:
 * **close()** = fungsi untuk menutup pintu mobil
 * **open()** = fungsi untuk membuka pintu mobil
