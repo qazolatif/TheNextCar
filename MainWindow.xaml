@@ -9,8 +9,8 @@
     <Grid Margin="0,0,10,-6">
         <Button x:Name="StartButton" Content="STOPPED" HorizontalAlignment="Left" Margin="36,324,0,0" VerticalAlignment="Top" Background="Red" Foreground="White" FontWeight="Bold" FontSize="18" Click="OnStartButtonClicked"/>
         <Button x:Name="AccuButton" Content="OFF" HorizontalAlignment="Left" Margin="402,328,0,0" VerticalAlignment="Top" Click="OnAccuButtonClicked"/>
-        <Button x:Name="LockDoorButton" Content="LOCKED" HorizontalAlignment="Left" Margin="290,328,0,0" VerticalAlignment="Top" Click="OnLockDoorButtonClicked"/>
-        <Button x:Name="DoorOpenButton" Content="CLOSED" HorizontalAlignment="Left" Margin="174,328,0,0" VerticalAlignment="Top" Click="OnDoorOpenButtonClicked"/>
+        <Button x:Name="LockDoorButton" Content="LOCK" HorizontalAlignment="Left" Margin="290,328,0,0" VerticalAlignment="Top" Click="OnLockDoorButtonClicked"/>
+        <Button x:Name="DoorOpenButton" Content="CLOSE" HorizontalAlignment="Left" Margin="174,328,0,0" VerticalAlignment="Top" Click="OnDoorOpenButtonClicked"/>
         <Label Name="status" Content="No power available" HorizontalAlignment="Left" Margin="21,357,0,0" VerticalAlignment="Top"/>
         <Label Name="DoorOpenState" Content="Door is opened" HorizontalAlignment="Left" Margin="151,357,0,0" VerticalAlignment="Top"/>
         <Label Name="LockDoorState" Content="Door is unlocked" HorizontalAlignment="Left" Margin="264,357,0,0" VerticalAlignment="Top"/>
@@ -20,6 +20,10 @@
         <Label Content="Door" HorizontalAlignment="Left" Margin="179,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.618"/>
         <Label Content="Security" HorizontalAlignment="Left" Margin="288,284,0,0" VerticalAlignment="Top"/>
         <Label Content="Power" HorizontalAlignment="Left" Margin="396,284,0,0" VerticalAlignment="Top"/>
+        <Label Content="125" FontSize="48" FontWeight="Bold" Height="67" HorizontalAlignment="Left" Margin="36,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.618"/>
+        <Label Content="km/h" HorizontalAlignment="Left" Margin="64,227,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.618"/>
+        <Label Content="49" FontSize="48" FontWeight="Bold" HorizontalAlignment="Left" Margin="373,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.618"/>
+        <Label Content="x 1000 rpm" HorizontalAlignment="Left" Margin="371,227,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.618"/>
 
     </Grid>
 </Window>
